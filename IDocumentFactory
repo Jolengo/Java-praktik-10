@@ -1,0 +1,6 @@
+package com.company;
+
+public interface IDocumentFactory {
+    IDocument createNew(String name);
+    IDocument createOpen(String name);
+}
